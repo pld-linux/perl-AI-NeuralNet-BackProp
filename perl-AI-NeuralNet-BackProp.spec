@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	AI
-%define	pnam	NeuralNet-BackProp
+%define		pdir	AI
+%define		pnam	NeuralNet-BackProp
 Summary:	A simple back-prop neural net that uses Delta's and Hebbs' rule
 Summary(pl):	Prosta sieæ neuronowa ze wsteczn± propagacj± u¿ywaj±ca zasady Delty i Hebbsa
 Name:		perl-AI-NeuralNet-BackProp

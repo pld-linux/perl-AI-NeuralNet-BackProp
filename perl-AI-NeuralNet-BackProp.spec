@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# don't perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	AI
 %define	pnam	NeuralNet-BackProp
@@ -32,7 +36,7 @@ uogólnienia zasady Delty i czê¶ci teorii Hopefielda.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT

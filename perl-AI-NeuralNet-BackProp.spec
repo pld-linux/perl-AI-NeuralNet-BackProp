@@ -5,12 +5,12 @@ Summary:	A simple back-prop neural net that uses Delta's and Hebbs' rule
 Summary(pl):	Prosta sieæ neuronowa ze wsteczn± propagacj± u¿ywaj±ca zasady Delty i Hebbsa
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.89
-Release:	2
+Release:	3
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.zip
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -9,7 +9,7 @@ Summary:	A simple back-prop neural net that uses Delta's and Hebbs' rule
 Summary(pl):	Prosta sieæ neuronowa ze wsteczn± propagacj± u¿ywaj±ca zasady Delty i Hebbsa
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.89
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

@@ -26,7 +26,7 @@ propagacj± i przednim sprzê¿eniem zaprojektowana do nauki przy u¿yciu
 uogólnienia zasady Delty i czê¶ci teorii Hopefielda.
 
 %prep
-%setup -q -n %{name}-%{version} -c
+%setup -q -c
 
 %build
 %{__perl} Makefile.PL \
@@ -47,8 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/AI/NeuralNet/*.pm
 %doc Changes *.htm README
+%{perl_vendorlib}/AI/NeuralNet/*.pm
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*.pl
 %{_examplesdir}/%{name}-%{version}/*.dat

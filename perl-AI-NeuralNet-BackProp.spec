@@ -28,7 +28,7 @@ uogólnienia zasady Delty i czê¶ci teorii Hopefielda.
 %setup -q -n %{name}-%{version} -c
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 

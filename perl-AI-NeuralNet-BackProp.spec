@@ -10,7 +10,8 @@ Summary(pl):	Prosta sieæ neuronowa ze wsteczn± propagacj± u¿ywaj±ca zasady Delty
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.89
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.zip
 # Source0-md5:	1791f9f8f178ef67d2814fd8ff46fa11

@@ -22,9 +22,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-AI::NeuralNet::BackProp is a simply back-propagation, feed-foward neural
-network designed to learn using a generalization of the Delta rule and
-a bit of Hopefield theory.
+AI::NeuralNet::BackProp is a simply back-propagation, feed-foward
+neural network designed to learn using a generalization of the Delta
+rule and a bit of Hopefield theory.
 
 %description -l pl
 AI::NeuralNet::BackProp to prosta sieæ neuronowa ze wsteczn±

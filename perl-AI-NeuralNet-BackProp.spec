@@ -9,7 +9,7 @@ Summary:	A simple back-prop neural net that uses Delta's and Hebbs' rule
 Summary(pl.UTF-8):	Prosta sieć neuronowa ze wsteczną propagacją używająca zasady Delty i Hebbsa
 Name:		perl-AI-NeuralNet-BackProp
 Version:	0.89
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
